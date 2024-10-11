@@ -14,6 +14,7 @@ function App() {
           body:"Hello Notification"
           // icon:
         })
+        console.log(notify);
       } else{
         console.log("permission denied ")
       }
@@ -27,6 +28,7 @@ function App() {
           body:"Hello Notification"
           // icon:
         })
+        console.log(notify)
       } else{
         console.log("permission denied ")
       }
